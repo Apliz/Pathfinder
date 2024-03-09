@@ -1,2 +1,3 @@
-# /public/jquery-3.7.1.js
-# /lib/JSON/orbital_data.js
+.DS_Store
+__pycache__/
+text.txt
