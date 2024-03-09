@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+<link href="{{ url_for('static', filename='index_styles.css')}}" rel="stylesheet">
+<script src="{{ url_for('static', filename='celestrack.js')}}"></script>
+{%endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <p>welcome to the aerospace project. This is going to predict deltaV figures for an optimal path between satellites for the purposes of space debris removal</p>
+  <p>At the moment this is in construction. There is no logic. There is no backend. But the success is that we are now running in Flask!</p>
+  <button type="button" id="celestrackButton">Celestrack GET!</button>
+</div>
+{%endblock%}

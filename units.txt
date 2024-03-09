@@ -1,0 +1,25 @@
+CONSTANTS
+G_EARTH                 = m s-2
+R_EARTH                 = km
+GM                      = km3 s-2
+GR2                     = m s-2 * km2
+
+Orbit.py
+____________
+mean_motion             = revolutions/day
+semi-major-axis         = km
+radius_at()             = km
+epsilon()               = MJ kg-1
+velocity_at_position()  = km s-1
+orbital_period()        = s
+
+Transfer.py
+_____________
+a_transfer()            = km
+
+hohmann_transfer()      = km s-1
+
+  v1                    = km s-1
+  v2                    = km s-1
+  vt1                   = km s-1
+  vt2                   = km s-1
